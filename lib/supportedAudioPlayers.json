@@ -31,8 +31,8 @@
   },
   {
     "name": "tts",
-    "command": "sudo tts",
-    "arguments": [],
+    "command": "sudo",
+    "arguments": ["tts"],
     "processName": "tts"
   }
 ]
