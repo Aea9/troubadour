@@ -47,6 +47,10 @@ class Troubadour extends EventEmitter {
     }
   }
 
+  start(args){
+    this.audioProcess = audioPlayer.play(this, this.player.command, this.player.arguments.concat(args), undefined);
+  }
+
   pause() {
     if (this.audioProcess == null) {
       this.emit('error', new Error('no audio playback to pause'));

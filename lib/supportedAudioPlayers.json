@@ -22,5 +22,17 @@
     "command": "cvlc",
     "arguments": ["--play-and-exit"],
     "processName": "vlc"
+  },
+  {
+    "name": "aplay",
+    "command": "aplay",
+    "arguments": [],
+    "processName": "aplay"
+  },
+  {
+    "name": "tts",
+    "command": "sudo tts",
+    "arguments": [],
+    "processName": "tts"
   }
 ]
